@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://docmind-ai-7bfa.onrender.com/api';
 
 export async function uploadDocument(file) {
   const formData = new FormData();
